@@ -37,8 +37,17 @@ describe("Shop", function() {
 
     it("should return 130 for AAA", function() {
       var shop = new Shop("AAA");
-      expect(shop.checkout()).toEqual(115)
+      expect(shop.checkout()).toEqual(130)
     });
 
+    it("should return 260 for AAAAAA", function() {
+      var shop = new Shop("AAAAAA");
+      expect(shop.checkout()).toEqual(260)
+    });
+
+    it("should return 260 for AAABB", function() {
+      var shop = new Shop("AAABB");
+      expect(shop.checkout()).toEqual(175)
+    });
   });
 });

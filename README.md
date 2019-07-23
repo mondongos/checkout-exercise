@@ -54,3 +54,7 @@ General approach:
 1. Immediately return -1 if input is illegal
 2. Calculate items excluding special offers first
 3. Add in special offers
+
+Special offers:
+- Count number of letters
+- Discount accordingly
