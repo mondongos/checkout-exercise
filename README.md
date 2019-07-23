@@ -43,10 +43,10 @@ shop.checkout('AAA') # => 130
 shop.checkout('AAAAAA') # => 260
 ```
 ## How to use
-1. Clone this repository
-2. Open SpecHelper in Chrome
-3. Run `var shop = new Shop("AAA")`
-4. Get result with `shop.checkout()`
+1. Clone this repository.
+2. Open SpecRunner.html in Chrome.
+3. Run `var shop = new Shop("AAA")` in the console.
+4. Get result with `shop.checkout()`.
 
 ## Approach
 Illegal arguments are:
